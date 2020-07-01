@@ -3,7 +3,7 @@
 class Rocket {
     constructor(lifespan, target) {
         this.pos = createVector(width/2, height-50);
-   s     this.vel = createVector();
+        this.vel = createVector();
         this.acc = createVector();
         this.target = target;
         this.genes = [];
